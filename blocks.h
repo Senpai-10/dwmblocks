@@ -14,13 +14,13 @@
 static const Block blocks[] = {
 	/*Icon*/  /*Command*/  /*Update Interval*/ /*Update Signal*/
 	{ "",   	uptime,     	5,   				0 },
-	{ "", 		layout,     	1,   				0 },
+	{ "", 		layout,     	0,   				1 },
 	{ "", 		network,    	5,   				0 },
-	{ "", 		volume,     	1,   				0 },
+	{ "", 		volume,     	0,   				2 },
 	{ "", 		temp,       	5,   				0 },
 	{ "", 		cpu_usage,  	5,   				0 },
 	{ "", 		ram_usage,  	1,   				0 },
-	{ "",   	updates,    	5,   				0 },
+	{ "",   	updates,    	60,   				0 },
 	{ "", 		date,			5,	 				0 },
 };
 
