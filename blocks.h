@@ -14,9 +14,9 @@
 static const Block blocks[] = {
 	/*Icon*/  /*Command*/  /*Update Interval*/ /*Update Signal*/
 	{ "",   	uptime,     	5,   				0 },
-	{ "", 		layout,     	5,   				0 },
+	{ "", 		layout,     	1,   				0 },
 	{ "", 		network,    	5,   				0 },
-	{ "", 		volume,     	5,   				0 },
+	{ "", 		volume,     	1,   				0 },
 	{ "", 		temp,       	5,   				0 },
 	{ "", 		cpu_usage,  	5,   				0 },
 	{ "", 		ram_usage,  	1,   				0 },
