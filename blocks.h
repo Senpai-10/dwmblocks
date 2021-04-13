@@ -20,7 +20,7 @@ static const Block blocks[] = {
 	{ "", 		temp,       	5,   				0 },
 	{ "", 		cpu_usage,  	5,   				0 },
 	{ "", 		ram_usage,  	1,   				0 },
-	{ "",   	updates,    	60,   				0 },
+	{ "",   	updates,    	120,   				0 },
 	{ "", 		date,			5,	 				0 },
 };
 
