@@ -1,13 +1,13 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 
-#define uptime "$HOME/wm/dwmblocks/scripts/uptime.sh"
-#define layout "$HOME/wm/dwmblocks/scripts/layout.sh"
-#define network "$HOME/wm/dwmblocks/scripts/network.sh"
-#define volume "$HOME/wm/dwmblocks/scripts/volume.sh"
-#define temp "$HOME/wm/dwmblocks/scripts/temp.sh"
-#define cpu_usage "$HOME/wm/dwmblocks/scripts/cpu_usage.sh"
-#define ram_usage "$HOME/wm/dwmblocks/scripts/ram_usage.sh"
-#define updates "$HOME/wm/dwmblocks/scripts/updates.sh"
+#define uptime "$HOME/.wm/dwmblocks/scripts/uptime.sh"
+#define layout "$HOME/.wm/dwmblocks/scripts/layout.sh"
+#define network "$HOME/.wm/dwmblocks/scripts/network.sh"
+#define volume "$HOME/.wm/dwmblocks/scripts/volume.sh"
+#define temp "$HOME/.wm/dwmblocks/scripts/temp.sh"
+#define cpu_usage "$HOME/.wm/dwmblocks/scripts/cpu_usage.sh"
+#define ram_usage "$HOME/.wm/dwmblocks/scripts/ram_usage.sh"
+#define updates "$HOME/.wm/dwmblocks/scripts/updates.sh"
 #define date "date '+%Y/%m/%d %A %I:%M:%S %p '"
 
 
