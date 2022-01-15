@@ -1,11 +1,28 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
-static const Block blocks[] = {
-	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 
-	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
+#define uptime "$HOME/.wm/dwmblocks/scripts/uptime.sh"
+#define layout "$HOME/.wm/dwmblocks/scripts/layout.sh"
+#define network "$HOME/.wm/dwmblocks/scripts/network.sh"
+#define volume "$HOME/.wm/dwmblocks/scripts/volume.sh"
+#define temp "$HOME/.wm/dwmblocks/scripts/temp.sh"
+#define cpu_usage "$HOME/.wm/dwmblocks/scripts/cpu_usage.sh"
+#define ram_usage "$HOME/.wm/dwmblocks/scripts/ram_usage.sh"
+#define updates "$HOME/.wm/dwmblocks/scripts/updates.sh"
+#define date "date '+%Y/%m/%d %A %I:%M:%S %p '"
+
+
+static const Block blocks[] = {
+	/*Icon*/  /*Command*/  /*Update Interval*/ /*Update Signal*/
+	{ "",   	uptime,     	5,   				0 },
+	{ "", 		layout,     	0,   				1 },
+	{ "", 		network,    	5,   				0 },
+	{ "", 		volume,     	0,   				2 },
+	{ "", 		temp,       	5,   				0 },
+	{ "", 		cpu_usage,  	5,   				0 },
+	{ "", 		ram_usage,  	1,   				0 },
+	{ "",   	updates,    	120,   				0 },
+	{ "", 		date,			5,	 				0 },
 };
 
-//sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim[] = " | ";
 static unsigned int delimLen = 5;
