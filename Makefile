@@ -1,4 +1,4 @@
-PREFIX ?= /usr/local
+PREFIX ?= ~/.local
 CC ?= cc
 LDFLAGS = -lX11
 
